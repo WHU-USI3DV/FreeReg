@@ -38,7 +38,7 @@ ArXiv 2023
 <p align="center">
  | 
 <a href="" target="_blank">Paper</a> | 
-<a href="https://hpwang-whu.github.io/FreeRegi2p/" target="_blank">Project Page</a> | 
+<a href="https://whu-usi3dv.github.io/FreeReg/" target="_blank">Project Page</a> | 
 <a href="" target="_blank">Video</a>
  | 
 </p>
