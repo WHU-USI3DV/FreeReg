@@ -1,0 +1,75 @@
+name: 'demo'
+
+meta:
+  base: './data/demo'
+  feat_base: './tale_features'
+  rgb_size: [1296,968]
+  dpt_size: [640,480]
+  rgb_intrinsic: [[1163.45,0,635.626],[0,1164.79,481.600],[0,0,1]]
+  dpt_intrinsic: [[574.541,0,322.522],[0,577.584,238.559],[0,0,1]]
+  dpt_scale: 1000.0
+  densify: True
+  densefunc: 'fast'
+
+zoe:
+  zoe_type: 'zoedepth'
+  config_version: None
+  zoe_ck: './tools/zoe/models/ZoeD_M12_N.pt'
+
+feat:
+  cn:
+    save_layers: [0,4,6]
+    seed: 12345
+    prompt: 'a photo of a room, furniture, household items'
+    step: 150
+    check_layers: [0,4,6]
+    pca_dim: 128
+    top_crop: -1
+    ckpts:
+      basic: './tools/controlnet/models'
+      yaml: 'control_v11f1p_sd15_depth.yaml'
+      sd_ckpt: 'v1-5-pruned.ckpt'
+      cn_ckpt: 'control_v11f1p_sd15_depth.pth'
+
+  fcgf:
+    pth: './tools/fcgf/models/fcgf_indoor.pth'
+    vs: 0.025
+    trans_thres: 0.5
+
+  merge:
+    nkpts: -1
+
+proj:
+  filter_edge: True
+  win_length: 3
+  max_range_inwin: 0.2
+  filter_far: True
+  far_thres: 10
+  filter_near: True
+  near_thres: 0.01
+
+match:
+  dpt_mask:
+    min: 0.01
+    max: 15
+
+reg:
+  pnp:
+    iters: 50000
+    ird: 10
+  ransac:
+    iters: 50000
+    dpt_ird: 0.1
+    zoe_ird: 0.2
+
+eval:
+  mask:
+    min: 0.01
+    max: 15
+  ir:
+    thres: 0.3
+  rr:
+    r_thres: 20
+    t_thres: 0.5
+
+logfile: './result.txt'

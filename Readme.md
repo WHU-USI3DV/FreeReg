@@ -10,9 +10,9 @@ ArXiv 2023
 <p align="center">
 <a href="https://hpwang-whu.github.io/" target="_blank">Haiping Wang</a><sup>*,1</sup>, 
 <a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu</a><sup>*,2</sup>,
-<a href="https://dongzhenwhu.github.io/" target="_blank">Zhen Dong</a><sup>&dagger;,1</sup>, 
 <a href="http://www.cs.ox.ac.uk/people/bing.wang/" target="_blank">Bing Wang</a><sup>3</sup>,
 <a href="https://yujingsun.github.io/" target="_blank">Yujing Sun</a><sup>2</sup>,
+<a href="https://dongzhenwhu.github.io/" target="_blank">Zhen Dong</a><sup>&dagger;,1</sup>, 
 <a href="https://www.cs.hku.hk/people/academic-staff/wenping" target="_blank">Wenping Wang</a><sup>4</sup>
 <a href="https://scholar.google.com/citations?hl=zh-CN&user=DZsF2oIAAAAJ" target="_blank">Bisheng Yang</a><sup>&dagger;,1</sup> <br>
 </p>

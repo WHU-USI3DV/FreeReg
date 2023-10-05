@@ -1,0 +1,78 @@
+name: 'kitti'
+
+meta:
+  base: './data/kitti_dc/test'
+  feat_base: './tale_features'
+  pair_type: 'seq'
+  overlap_pair: 0.3  # no use
+  seq_n_pair: 4
+  rgb_size: [1242,225]
+  dpt_size: [1242,225]
+  rgb_intrinsic: [[721.5377,0,609.5593],[0,721.5377,22.8540],[0,0,1]]
+  dpt_intrinsic: [[721.5377,0,609.5593],[0,721.5377,22.8540],[0,0,1]]
+  dpt_scale: 256.0
+  densify: True
+  densefunc: 'multiscale'
+
+zoe:
+  zoe_type: 'zoedepth_nk'
+  config_version: None
+  zoe_ck: './tools/zoe/models/ZoeD_M12_NK.pt'
+
+feat:
+  cn:
+    save_layers: [0,4,6]
+    seed: 12345
+    prompt: 'a vehicle camera photo of street view, trees, cars, people, house, road, sky'
+    step: 150
+    check_layers: [0,4,6]
+    pca_dim: 128
+    top_crop: 150
+    ckpts:
+      basic: './tools/controlnet/models'
+      yaml: 'control_v11f1p_sd15_depth.yaml'
+      sd_ckpt: 'v1-5-pruned.ckpt'
+      cn_ckpt: 'control_v11f1p_sd15_depth.pth'
+
+  fcgf:
+    pth: './tools/fcgf/models/fcgf_outdoor.pth'
+    vs: 0.3
+    trans_thres: 5
+
+  merge:
+    nkpts: -1
+
+proj:
+  filter_edge: True
+  win_length: 3
+  max_range_inwin: 1.0
+  filter_far: True
+  far_thres: 80
+  filter_near: True
+  near_thres: 0.5
+
+match:
+  dpt_mask:
+    min: 0.5
+    max: 80
+    
+reg:
+  pnp:
+    iters: 50000
+    ird: 10
+  ransac:
+    iters: 50000
+    dpt_ird: 2
+    zoe_ird: 4
+
+eval:
+  mask:
+    min: 0.5
+    max: 80
+  ir:
+    thres: 3
+  rr:
+    r_thres: 10
+    t_thres: 4
+  
+logfile: './result.txt'
