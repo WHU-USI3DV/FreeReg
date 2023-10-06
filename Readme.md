@@ -39,12 +39,12 @@ ArXiv 2023
  | 
 <a href="https://arxiv.org/abs/2310.03420" target="_blank">Paper</a> | 
 <a href="https://whu-usi3dv.github.io/FreeReg/" target="_blank">Project Page</a> | 
-<a href="" target="_blank">Video</a>
+<a href="https://www.youtube.com/watch?v=N_M5Zsfo1U8" target="_blank">Video</a>
  | 
 </p>
 
 ## 🆕 News
-- 2023-10-06: Code and Preprint paper ([Arxiv](https://arxiv.org/abs/2310.03420)) are aviliable! 🎉🎉
+- 2023-10-06: Code, [[project page]](https://whu-usi3dv.github.io/FreeReg/)(with introduction video), [[Youtube video]](https://www.youtube.com/watch?v=N_M5Zsfo1U8), and [[Preprint paper]](https://arxiv.org/abs/2310.03420) are aviliable! 🎉🎉
 
 ## 💻 Requirements
 The code has been on:
