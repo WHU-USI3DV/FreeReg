@@ -1,6 +1,6 @@
 <h1 align="center"> <p>😍 FreeReg</p></h1>
 <h3 align="center">
-<a href="" target="_blank">FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators</a>
+<a href="https://arxiv.org/abs/2310.03420" target="_blank">FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators</a>
 </h3>
 
 <h3 align="center">
@@ -37,14 +37,14 @@ ArXiv 2023
 
 <p align="center">
  | 
-<a href="" target="_blank">Paper</a> | 
+<a href="https://arxiv.org/abs/2310.03420" target="_blank">Paper</a> | 
 <a href="https://whu-usi3dv.github.io/FreeReg/" target="_blank">Project Page</a> | 
 <a href="" target="_blank">Video</a>
  | 
 </p>
 
 ## 🆕 News
-- 2023-10-08: Code and Preprint paper ([Arxiv]()) are aviliable! 🎉🎉
+- 2023-10-06: Code and Preprint paper ([Arxiv](https://arxiv.org/abs/2310.03420)) are aviliable! 🎉🎉
 
 ## 💻 Requirements
 The code has been on:
@@ -120,7 +120,11 @@ you can replace ```--type dg``` that uses fused features and Kabsch solver with 
 If you find this repo helpful, please give us a 😍 star 😍.
 Please consider citing FreeReg if this program benefits your project
 ```
-@article{
+@article{wang2023freereg,
+  title={FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators},
+  author={Haiping Wang and Yuan Liu and Bing Wang and Yujing Sun and Zhen Dong and Wenping Wang and Bisheng Yang},
+  journal={arXiv preprint arXiv:2310.03420},
+  year={2023}
 }
 ```
 
