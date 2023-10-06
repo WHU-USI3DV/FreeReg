@@ -1,31 +1,16 @@
-<h1 align="center"> <p>😍 FreeReg</p></h1>
-<h3 align="center">
-<a href="https://arxiv.org/abs/2310.03420" target="_blank">FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators</a>
-</h3>
+<h1> 
+<a href="https://whu-usi3dv.github.io/FreeReg/" target="_blank">FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators</a>
+</h1>
 
-<h3 align="center">
-ArXiv 2023
-</h3>
+This is the official PyTorch implementation of the following publication:
 
-<p align="center">
-<a href="https://hpwang-whu.github.io/" target="_blank">Haiping Wang</a><sup>*,1</sup>, 
-<a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu</a><sup>*,2</sup>,
-<a href="http://www.cs.ox.ac.uk/people/bing.wang/" target="_blank">Bing Wang</a><sup>3</sup>,
-<a href="https://yujingsun.github.io/" target="_blank">Yujing Sun</a><sup>2</sup>,
-<a href="https://dongzhenwhu.github.io/" target="_blank">Zhen Dong</a><sup>&dagger;,1</sup>, 
-<a href="https://www.cs.hku.hk/people/academic-staff/wenping" target="_blank">Wenping Wang</a><sup>4</sup>
-<a href="https://scholar.google.com/citations?hl=zh-CN&user=DZsF2oIAAAAJ" target="_blank">Bisheng Yang</a><sup>&dagger;,1</sup> <br>
-</p>
+> **FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators**<br/>
+> Quang-Hieu Pham, Mikaela Angelina Uy, Binh-Son Hua, Duc Thanh Nguyen, Gemma Roig, Sai-Kit Yeung<br/>
+> *ArXiv 2023*<br/>
+> [**Paper**](https://arxiv.org/abs/2310.03420) | [**Project-page**](https://whu-usi3dv.github.io/FreeReg/) | [**Video**](https://www.youtube.com/watch?v=N_M5Zsfo1U8)
 
-<p align="center">
-<sup>1</sup>Wuhan University &nbsp;&nbsp; 
-<sup>2</sup>The University of Hong Kong &nbsp;&nbsp; 
-<sup>3</sup>The Hong Kong Polytechnic University &nbsp;&nbsp; <br>
-<sup>4</sup>Texas A&M University &nbsp;&nbsp; <br>
-<sup>*</sup>The first two authors contribute equally. &nbsp;&nbsp; 
-<sup>&dagger;</sup>Corresponding authors. &nbsp;&nbsp; 
-</p>
 
+## 🔭 Introduction
 <p align="center">
 <strong>TL;DR: FreeReg extracts cross-modality features from pretrained diffusion models and monocular depth estimators for accurate zero-shot image-to-point cloud registration.</strong>
 </p>
@@ -35,19 +20,11 @@ ArXiv 2023
 <strong>Abstract:</strong> Matching cross-modality features between images and point clouds is a fundamental problem for image-to-point cloud registration. However, due to the modality difference between images and points, it is difficult to learn robust and discriminative cross-modality features by existing metric learning methods for feature matching. Instead of applying metric learning on cross-modality data, we propose to unify the modality between images and point clouds by pretrained large-scale models first, and then establish robust correspondence within the same modality. We show that the intermediate features, called diffusion features, extracted by depth-to-image diffusion models are semantically consistent between images and point clouds, which enables the building of coarse but robust cross-modality correspondences. We further extract geometric features on depth maps produced by the monocular depth estimator. By matching such geometric features, we significantly improve the accuracy of the coarse correspondences produced by diffusion features. Extensive experiments demonstrate that <strong>without any task-specific training</strong>, direct utilization of both features produces accurate image-to-point cloud registration. On three public indoor and outdoor benchmarks, the proposed method averagely achieves a 20.6 percent improvement in Inlier Ratio, a three-fold higher Inlier Number, and a 48.6 percent improvement in Registration Recall than existing state-of-the-arts.
 </p>
 
-<p align="center">
- | 
-<a href="https://arxiv.org/abs/2310.03420" target="_blank">Paper</a> | 
-<a href="https://whu-usi3dv.github.io/FreeReg/" target="_blank">Project Page</a> | 
-<a href="https://www.youtube.com/watch?v=N_M5Zsfo1U8" target="_blank">Video</a>
- | 
-</p>
-
 ## 🆕 News
 - 2023-10-06: Code, [[project page]](https://whu-usi3dv.github.io/FreeReg/)(with introduction video), [[Youtube video]](https://www.youtube.com/watch?v=N_M5Zsfo1U8), and [[Preprint paper]](https://arxiv.org/abs/2310.03420) are aviliable! 🎉🎉
 
 ## 💻 Requirements
-The code has been on:
+The code has been tested on:
 - Ubuntu 20.04
 - CUDA 11.7
 - Python 3.8.5
