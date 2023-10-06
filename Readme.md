@@ -5,7 +5,7 @@
 This is the official PyTorch implementation of the following publication:
 
 > **FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators**<br/>
-> Quang-Hieu Pham, Mikaela Angelina Uy, Binh-Son Hua, Duc Thanh Nguyen, Gemma Roig, Sai-Kit Yeung<br/>
+> Haiping Wang, Yuan Liu, Bing Wang, Yujing Sun, Zhen Dong, Wenping Wang, Bisheng Yang<br/>
 > *ArXiv 2023*<br/>
 > [**Paper**](https://arxiv.org/abs/2310.03420) | [**Project-page**](https://whu-usi3dv.github.io/FreeReg/) | [**Video**](https://www.youtube.com/watch?v=N_M5Zsfo1U8)
 
