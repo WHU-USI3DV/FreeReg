@@ -122,7 +122,7 @@ class gen_meta():
                             'q_id': f'{i}',
                             'd_id': f'{i+j}',
                             'overlap': 0.8, # no use
-                            'to_fn': f'{self.save_base}/{name}/match/{i}-{j}.trans.npz',
+                            'to_fn': f'{self.save_base}/{name}/match/{i}-{i+j}.trans.npz',
                             'gt':gt
                         }
                         metas[name]['pairs'].append(item)
