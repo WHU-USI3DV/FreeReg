@@ -55,7 +55,8 @@ FreeReg does not need any training but utilizes pretrained models of existing pr
 
 - Diffusion Feature related, download them and place them in ```tools/controlnet/models``` directory: 
   - Stable Diffusion v1.5 [[ckpt]](https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned.ckpt);
-  - ControlNet(SDv1.5) conditioning on depth images [[ckpt]](https://huggingface.co/lllyasviel/ControlNet-v1-1/blob/main/control_v11f1p_sd15_depth.pth);
+  <!-- - ControlNet(SDv1.5) conditioning on depth images [[ckpt]](https://huggingface.co/lllyasviel/ControlNet-v1-1/blob/main/control_v11f1p_sd15_depth.pth); -->
+  - ControlNet(SDv1.5) conditioning on depth images [[ckpt-ft]](https://drive.google.com/file/d/1YSYXHZtg4Mvdh_twOK_FIc8kao3sA3z2/view?usp=drive_link); **[23/11/23 Update: We fine-tune ControlNet with real RGB-D data for better performances.]**
 
 - Depth Estimation related, download them and place them in ```tools/zoe/models``` directory:
   - Zoe-depth-n [[ckpt]](https://github.com/isl-org/ZoeDepth/releases/download/v1.0/ZoeD_M12_N.pt) for indoor datasets such as 3dmatch/scannet;

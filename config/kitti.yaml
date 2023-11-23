@@ -32,7 +32,7 @@ feat:
       basic: './tools/controlnet/models'
       yaml: 'control_v11f1p_sd15_depth.yaml'
       sd_ckpt: 'v1-5-pruned.ckpt'
-      cn_ckpt: 'control_v11f1p_sd15_depth.pth'
+      cn_ckpt: 'control_v11f1p_sd15_depth_ft.pth'
 
   fcgf:
     pth: './tools/fcgf/models/fcgf_outdoor.pth'
