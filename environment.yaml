@@ -27,7 +27,7 @@ dependencies:
       - invisible-watermark>=0.1.5
       - streamlit-drawable-canvas==0.8.0
       - torchmetrics==0.6.0
-      - timm==0.6.12
+      - timm==0.6.7
       - addict==2.4.0
       - yapf==0.32.0
       - prettytable==3.6.0
