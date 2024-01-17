@@ -120,10 +120,12 @@ a, a:visited {
   color: black; /* 修改链接字体颜色为黑色 */
   text-decoration: underline gray; /* 修改链接下划线为灰色 */
 }
-#conference {
+#authors .conference {
   text-align: center;
+  font-size: 28px;
+  font-weight: 300;
   margin-bottom: 20px;
-  font-style: italic;
+  color: black; /* 修改链接字体颜色为黑色 */
 }
 #authors a {
   margin: 0 10px;
