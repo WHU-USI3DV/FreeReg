@@ -6,7 +6,7 @@ This is the official PyTorch implementation of the following publication:
 
 > **FreeReg: Image-to-Point Cloud Registration Leveraging Pretrained Diffusion Models and Monocular Depth Estimators**<br/>
 > [Haiping Wang](https://hpwang-whu.github.io/), [Yuan Liu](https://liuyuan-pal.github.io/), [Bing Wang](https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/), [Yujing Sun](https://yujingsun.github.io/), [Zhen Dong](https://dongzhenwhu.github.io/index.html), [Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm)<br/>
-> *ArXiv 2023*<br/>
+> *ICLR 2024*<br/>
 > [**Paper**](https://arxiv.org/abs/2310.03420) | [**Project-page**](https://whu-usi3dv.github.io/FreeReg/) | [**Video**](https://www.youtube.com/watch?v=N_M5Zsfo1U8)
 
 
@@ -21,7 +21,8 @@ This is the official PyTorch implementation of the following publication:
 </p>
 
 ## 🆕 News
-- 2023-10-06: Code, [[project page]](https://whu-usi3dv.github.io/FreeReg/)(with introduction video), [[Youtube video]](https://www.youtube.com/watch?v=N_M5Zsfo1U8), and [[Preprint paper]](https://arxiv.org/abs/2310.03420) are aviliable! 🎉
+- 2024-01-16: Accepted by ICLR 2024! 🎉🎉🎉
+- 2023-10-06: Code, [[project page]](https://whu-usi3dv.github.io/FreeReg/), [[Youtube video]](https://www.youtube.com/watch?v=N_M5Zsfo1U8), and [[Preprint paper]](https://arxiv.org/abs/2310.03420) are aviliable! 🎉
 
 ## 💻 Requirements
 The code has been tested on:
