@@ -14,6 +14,7 @@ but it requires two additional pieces of information for virtual camera definati
 - The other is the virtual camera's pose, which must produce a depth map that partially overlaps with the query image. 
 In FreeReg, we define this initial pose as the identity matrix (demo.py), which corresponds to the initialization of the point cloud sensor's pose. 
 Moreover, FreeReg-D is time-consuming for the diffusion process.
+
 Though better performances, some users give suggestions for reducing time and storage requirements, as well as increasing ease of use (e.g., without defining a virtual camera). This is more suitable for users who need to use FreeReg rather than develop on it.
 
 Fortunately, FreeReg-G does not require defining such a virtual camera and much faster, leading to this development called Free-FreeReg, an improved version of FreeReg-G. 
