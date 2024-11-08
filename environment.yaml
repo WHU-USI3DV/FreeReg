@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - python=3.8.5
-  - pip=20.3.3
+  - pip=24.3.1
   - cudatoolkit=11.3.1
   - pytorch=1.12.1
   - torchvision=0.13.1
@@ -27,7 +27,7 @@ dependencies:
       - invisible-watermark>=0.1.5
       - streamlit-drawable-canvas==0.8.0
       - torchmetrics==0.6.0
-      - timm==0.6.7
+      - timm==0.9.5
       - addict==2.4.0
       - yapf==0.32.0
       - prettytable==3.6.0

@@ -48,6 +48,8 @@ class meta_dpt():
             to_fn = q_item['zoe_fn'] 
             # judge if exists
             if (not self.update_dpt) and os.path.exists(to_fn):continue
+            basic = to_fn[:str.rfind(to_fn,'/')]
+            if not os.path.exists(basic): os.makedirs(basic)
             query = Image.open(q_item['rgb_fn'])
             query = np.asarray(query, dtype=np.float32) / 255.0
             timer.tic()

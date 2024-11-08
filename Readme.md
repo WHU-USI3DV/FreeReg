@@ -52,6 +52,15 @@ The code has been tested on:
   ```
 
 ## 🚅 Pretrained model
+
+*********** NOTE [2024.11.08] ************
+
+If you just want to use FreeReg to register your own data or have a try, we suggest to use [Free-FreeReg](), which is much faster and easy-to-use.
+
+If you are interested in the Diffusion Features and **Full Power** of FreeReg, Keep Going!
+
+******************************************
+
 FreeReg does not need any training but utilizes pretrained models of existing projects:
 
 - Diffusion Feature related, download them and place them in ```tools/controlnet/models``` directory: 
