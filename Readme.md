@@ -21,6 +21,7 @@ This is the official PyTorch implementation of the following publication:
 </p>
 
 ## 🆕 News
+- 2024-11-08: Open-source [Free-FreeReg](https://github.com/WHU-USI3DV/FreeReg/tree/FFreeReg), an improved version of FreeReg-G, which is much faster and easy-to-use!
 - 2024-01-16: Accepted by ICLR 2024! 🎉🎉🎉
 - 2023-10-06: Code, [[project page]](https://whu-usi3dv.github.io/FreeReg/), [[Youtube video]](https://www.youtube.com/watch?v=N_M5Zsfo1U8), and [[Preprint paper]](https://arxiv.org/abs/2310.03420) are aviliable! 🎉
 
@@ -55,7 +56,7 @@ The code has been tested on:
 
 *********** NOTE [2024.11.08] ************
 
-If you just want to use FreeReg to register your own data or have a try, we suggest to use [Free-FreeReg](), which is much faster and easy-to-use.
+If you just want to use FreeReg to register your own data or have a try, we suggest to use [Free-FreeReg](https://github.com/WHU-USI3DV/FreeReg/tree/FFreeReg), which is much faster and easy-to-use.
 
 If you are interested in the Diffusion Features and **Full Power** of FreeReg, Keep Going!
 
@@ -64,7 +65,7 @@ If you are interested in the Diffusion Features and **Full Power** of FreeReg, K
 FreeReg does not need any training but utilizes pretrained models of existing projects:
 
 - Diffusion Feature related, download them and place them in ```tools/controlnet/models``` directory: 
-  - Stable Diffusion v1.5 [[ckpt]](https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned.ckpt);
+  - Stable Diffusion v1.5 [[ckpt]](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt?download=true);
   <!-- - ControlNet(SDv1.5) conditioning on depth images [[ckpt]](https://huggingface.co/lllyasviel/ControlNet-v1-1/blob/main/control_v11f1p_sd15_depth.pth); -->
   - ControlNet(SDv1.5) conditioning on depth images [[ckpt-ft]](https://drive.google.com/file/d/1YSYXHZtg4Mvdh_twOK_FIc8kao3sA3z2/view?usp=drive_link); **[23/11/23 Update: We fine-tune ControlNet with real RGB-D data for better performances.]**
 
