@@ -21,7 +21,7 @@ This is the official PyTorch implementation of the following publication:
 </p>
 
 ## 🆕 News
-- 2024-11-08: OpenSource Free-FreeReg, an improved version of FreeReg-G, faster and easy-to-use!
+- 2024-11-08: OpenSource [Free-FreeReg](https://github.com/WHU-USI3DV/FreeReg/tree/FFreeReg), an improved version of FreeReg-G, faster and easy-to-use!
 - 2024-01-16: Accepted by ICLR 2024! 🎉🎉🎉
 - 2023-10-06: Code, [[project page]](https://whu-usi3dv.github.io/FreeReg/), [[Youtube video]](https://www.youtube.com/watch?v=N_M5Zsfo1U8), and [[Preprint paper]](https://arxiv.org/abs/2310.03420) are aviliable! 🎉
 
